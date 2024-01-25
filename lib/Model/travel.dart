@@ -12,4 +12,14 @@ class Travel {
       Travel("Mad05", "dhaka", "images/n5.png"),
     ];
   }
+
+  static List<Travel> mostPopularTravel() {
+    return [
+      Travel("Most1", "dhaka", "images/n.png"),
+      Travel("Most2", "dhaka", "images/n1.png"),
+      Travel("Most3", "dhaka", "images/n2.png"),
+      Travel("Most4", "dhaka", "images/n3.png"),
+      Travel("Most5", "dhaka", "images/n5.png"),
+    ];
+  }
 }

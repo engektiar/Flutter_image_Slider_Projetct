@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:my_projects/widgets/travel_ingo.dart';
+import 'package:my_projects/widgets/most_popular.dart';
 
 class Home_apge extends StatelessWidget {
   const Home_apge({super.key});
@@ -36,8 +37,18 @@ class Home_apge extends StatelessWidget {
           ],
         ),
         Expanded(
-          child: Placeholder(),
+          child: Most_popular(),
         ),
+        Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Container(
+              height: 5,
+              width: 80,
+              color: Colors.amber,
+            ),
+          ],
+        )
       ]),
     );
   }
