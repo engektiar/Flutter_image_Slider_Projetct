@@ -29,12 +29,21 @@ class Home_apge extends StatelessWidget {
           flex: 2,
           child: TravelInfo(),
         ),
-        Row(
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-          children: [
-            Text("Most Pupopafd"),
-            Text("viwe all "),
-          ],
+        Padding(
+          padding: const EdgeInsets.all(20),
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: [
+              Text(
+                "Most Pupopafd",
+                style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+              ),
+              Text(
+                "viwe all ",
+                style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+              ),
+            ],
+          ),
         ),
         Expanded(
           child: Most_popular(),
